@@ -1,0 +1,97 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #a2c2e4, #f5f7fa);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Styling the form container */
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Enhanced card styling with colors and effects */
+.card {
+    background: linear-gradient(145deg, #ffffff, #f0f0f0);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 25px;
+    max-width: 450px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #dcdcdc;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for card */
+.card:hover {
+    background: linear-gradient(145deg, #f9f9f9, #e0e0e0);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* Search container styling */
+.search {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Input field styling */
+.ucity {
+    border: 2px solid #4a90e2;
+    border-radius: 25px;
+    padding: 12px 20px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    color: #333;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ucity:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+    outline: none;
+}
+
+/* Button styling */
+.click {
+    background-color: #007BFF;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.click img {
+    width: 24px;
+    height: 24px;
+    filter: brightness(0) invert(1);
+}
+
+.click:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Paragraph styling */
+.para {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
