@@ -1,4 +1,4 @@
-/* General body styling */
+
 body {
     font-family: 'Arial', sans-serif;
     background: linear-gradient(135deg, #a2c2e4, #f5f7fa);
@@ -10,7 +10,7 @@ body {
     height: 100vh;
 }
 
-/* Styling the form container */
+
 form {
     display: flex;
     justify-content: center;
@@ -18,7 +18,7 @@ form {
     width: 100%;
 }
 
-/* Enhanced card styling with colors and effects */
+
 .card {
     background: linear-gradient(145deg, #ffffff, #f0f0f0);
     border-radius: 15px;
@@ -31,20 +31,20 @@ form {
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Hover effect for card */
+
 .card:hover {
     background: linear-gradient(145deg, #f9f9f9, #e0e0e0);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
 }
 
-/* Search container styling */
+
 .search {
     display: flex;
     align-items: center;
     gap: 12px;
 }
 
-/* Input field styling */
+
 .ucity {
     border: 2px solid #4a90e2;
     border-radius: 25px;
@@ -63,7 +63,7 @@ form {
     outline: none;
 }
 
-/* Button styling */
+
 .click {
     background-color: #007BFF;
     border: none;
@@ -88,7 +88,7 @@ form {
     transform: scale(1.05);
 }
 
-/* Paragraph styling */
+
 .para {
     margin-top: 20px;
     font-size: 18px;
